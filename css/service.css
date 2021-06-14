@@ -1,0 +1,155 @@
+#map_dash{
+  min-height: 400px;
+  padding-top: 125px;
+}
+#chart_dash{
+  display: none;
+  padding-top: 125px;
+}
+#delay_dash{
+  display: none;
+  padding-top: 125px;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab button {
+  width: 50%;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent {
+  animation: fadeEffect .8s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+#map{
+  height:500px;
+  width:100%;
+}
+#table_show{
+  margin-top: 20px;
+  width: 82%;
+}
+select {
+  width: 150%;
+}
+#data_header{
+  margin-top: 30px;
+}
+h1,h2,h3,h4,h5{
+  font-weight: bold;
+}
+
+.tb_row{
+  text-align: left;
+}
+.se-pre-con {
+  /*position: fixed;*/
+  position: absolute;
+  left: 550px;
+  top: 350px;
+  width: 20%;
+  height: 20%;
+  z-index: -9999;
+  background: url(../img/venubox/Preloader_3.gif) center no-repeat #fff;
+  visibility: hidden;
+}
+
+.autocomplete-items {
+    position: relative;
+    bottom: 12px;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+#suggestion-list{
+    float:left;
+    list-style:none;
+    margin-top:12px;
+    margin-right: 20px;
+    padding:0;
+    width:97%;
+    left: -1px;
+    position: absolute;
+}
+
+#suggestion-list li{
+    padding: 3px;
+    background: #FFFFFF;
+    border: black 2px solid;
+    border-top: none;
+}
+
+#suggestion-list li:hover{
+    background:#ece3d2;
+    cursor: pointer;
+}
+
+span.map_loc{
+  font-weight: bold;
+}
+li#trafficPlatforms_view{
+  border: 2px solid #3ec1d5;
+}
+li#stations_density{
+  border: 2px solid #3ec1d5;
+}
+a:active, a:visited, a:link{
+  text-decoration: none;
+}
+.recent-single-post{
+  border-bottom: none !important;
+}
+#weekdays_options{
+  visibility: hidden;
+}
+
+.chart-icons ul li {
+  display: inline-block;
+  border-bottom: none !important;
+  margin-left: 17px;
+
+}
+
+.chart-icons ul li a {
+  color: #444;
+  display: block;
+  font-size: 30px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  width: 40px;
+}
+.chart-icons {
+  visibility: hidden;
+}

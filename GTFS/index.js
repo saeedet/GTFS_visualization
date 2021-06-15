@@ -20,7 +20,7 @@ var requestSettings = {
   encoding: null,
   headers: {
     'Accept': 'application/json',
-    'Authorization': 'apikey f3g9H11o8yxTrUq4ub8ylTqDJuE0D4teoZkR'
+    'Authorization': 'apikey YOUR_API_KEY'
     }
 };
 var feeds = [

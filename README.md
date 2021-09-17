@@ -1,8 +1,6 @@
 # GTFS_visualization
 
-This is a website to fetch GTFS and GTFS-R data appropriately from the API and update it regularly.
-
-All data will be stored in the designed database and will be showed to the user using different Google APIs including google Chart API.
+GTFS feed provides a common format for public transport timetable and related geographical information while the GTFS-R provides the information regarding the vehicle’s position at a given time and the updates happened for scheduled stop times as well as the alerts for scenarios when a major delay or canceled trip is happened. This project objective is to demonstrate the potentials of the mentioned provided feeds by designing data visualization tools that display analytical patters of the transit services from which an in-depth insight of the network’s performance can be gained.
 
 ---
 

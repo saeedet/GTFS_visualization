@@ -4,6 +4,8 @@ GTFS feed provides a common format for public transport timetable and related ge
 
 ---
 
+# Instruction to run the project
+
 In order to run the project you need to load the database design which is located in GTFS folder "990project.sql".
 
 Then, install modules in GTFS folder by running "npm install" in cmd.

@@ -1,4 +1,4 @@
-# GTFS_visualization
+# GTFS data visualization
 
 GTFS feed provides a common format for public transport timetable and related geographical information while the GTFS-R provides the information regarding the vehicle’s position at a given time and the updates happened for scheduled stop times as well as the alerts for scenarios when a major delay or canceled trip is happened. This project objective is to demonstrate the potentials of the mentioned provided feeds by designing data visualization tools that display analytical patters of the transit services from which an in-depth insight of the network’s performance can be gained.
 

@@ -19,3 +19,7 @@ A google API key to include it in "./service.php" file line 822 where it shows "
 A GTFS API key to include it in "./GTFS/index.js" file line 23 where it shows "YOUR_API_KEY".
 
 You are all set now and you can play around with trains data.
+
+---
+
+<img align="center" alt="GraphQL" width="50vw" src="http://saeedet.com/images/portfolio/gtfs.jpg" />

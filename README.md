@@ -6,12 +6,12 @@ GTFS feed provides a common format for public transport timetable and related ge
 
 ### Instruction to run the project
 
-1-In order to run the project you need to load the database design which is located in GTFS folder "990project.sql".
-2-Install modules in GTFS folder by running "npm install" in cmd.
-3-Run node by the following command "node index.js".
-4-At the end, you need to have 2 API keys for this project which you can find online how to do that.
-5-Google API key to include it in "./service.php" file line 822 where it shows "YOUR_API_KEY".
-6-GTFS API key to include it in "./GTFS/index.js" file line 23 where it shows "YOUR_API_KEY".
+1-Load the database which is located in GTFS folder -> "990project.sql". <br/>
+2-Install modules in GTFS folder by running "npm install" in cmd. <br/>
+3-Run node by the following command "node index.js". <br/>
+4-At the end, you need to have 2 API keys for this project which you can find online how to do that. <br/>
+5-Google API key to include it in "./service.php" file line 822 where it shows "YOUR_API_KEY". <br/>
+6-GTFS API key to include it in "./GTFS/index.js" file line 23 where it shows "YOUR_API_KEY". <br/>
 
 You are all set now and you can play around with trains data.
 

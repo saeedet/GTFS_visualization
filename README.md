@@ -22,4 +22,4 @@ You are all set now and you can play around with trains data.
 
 ---
 
-<img align="center" alt="GraphQL" width="50vw" src="http://saeedet.com/images/portfolio/gtfs.jpg" />
+<img align="center" alt="GraphQL" width="100%" src="http://saeedet.com/images/portfolio/gtfs.jpg" />
